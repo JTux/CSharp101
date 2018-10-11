@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Queue_Challenge_Unit_Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_General_Concepts_Interfaces", "00_General_Concepts_Interfaces\00_General_Concepts_Interfaces.csproj", "{F91B0EEC-0CD5-48D7-911A-00EF456BBAB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Encapsulation_2", "04_Encapsulation_2\04_Encapsulation_2.csproj", "{50322801-7B03-4609-882B-903867002D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Encapsulation_2_Unit_Tests", "04_Encapsulation_2_Unit_Tests\04_Encapsulation_2_Unit_Tests.csproj", "{EB0E98AF-1E10-4D63-9801-39DE9FA8193C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{F91B0EEC-0CD5-48D7-911A-00EF456BBAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91B0EEC-0CD5-48D7-911A-00EF456BBAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91B0EEC-0CD5-48D7-911A-00EF456BBAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50322801-7B03-4609-882B-903867002D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50322801-7B03-4609-882B-903867002D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50322801-7B03-4609-882B-903867002D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50322801-7B03-4609-882B-903867002D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E98AF-1E10-4D63-9801-39DE9FA8193C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E98AF-1E10-4D63-9801-39DE9FA8193C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E98AF-1E10-4D63-9801-39DE9FA8193C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E98AF-1E10-4D63-9801-39DE9FA8193C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
