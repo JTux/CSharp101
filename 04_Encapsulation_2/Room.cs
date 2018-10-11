@@ -31,6 +31,7 @@ namespace _04_Encapsulation_2
         public double Length
         {
             get => _length;
+          
             private set
             {
                 if(value<MIN_LENGTH || value > MAX_LENGTH)
@@ -45,6 +46,7 @@ namespace _04_Encapsulation_2
         public double Width
         {
             get => _width;
+
             private set
             {
                 if (value < MIN_WIDTH || value > MAX_WIDTH)
@@ -59,6 +61,7 @@ namespace _04_Encapsulation_2
         public double Height
         {
             get => _height;
+
             private set
             {
                 if (value < MIN_HEIGHT || value > MAX_HEIGHT)
@@ -73,6 +76,11 @@ namespace _04_Encapsulation_2
         public double CalculateLateralSurfaceArea()
         {
             return 2 * _length * _height + 2 * _width * _height;
+        }
+      
+        public double CalculateSquareFeet()
+        {
+            return _length * _width;
         }
     }
 }
