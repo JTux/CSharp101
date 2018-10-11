@@ -31,12 +31,12 @@ namespace _04_Encapsulation_2
         public double Length
         {
             get => _length;
-
+          
             private set
             {
-                if (value < MIN_LENGTH || value > MAX_LENGTH)
+                if(value<MIN_LENGTH || value > MAX_LENGTH)
                 {
-                    throw new ArgumentException("The length should be between 6 and 30.");
+                    throw new ArgumentException($"The length should be between {MIN_LENGTH} and {MAX_LENGTH}.");
                 }
 
                 _length = value;
@@ -51,7 +51,7 @@ namespace _04_Encapsulation_2
             {
                 if (value < MIN_WIDTH || value > MAX_WIDTH)
                 {
-                    throw new ArgumentException("The width should be between 6 feet and 30 feet please.");
+                    throw new ArgumentException($"The width should be between {MIN_WIDTH} and {MAX_WIDTH}.");
                 }
 
                 _width = value;
@@ -66,7 +66,7 @@ namespace _04_Encapsulation_2
             {
                 if (value < MIN_HEIGHT || value > MAX_HEIGHT)
                 {
-                    throw new ArgumentException("The height should be between 10 and 12 feet please.");
+                    throw new ArgumentException($"The height should be between {MIN_HEIGHT} and {MAX_HEIGHT}.");
                 }
 
                 _height = value;
@@ -77,7 +77,7 @@ namespace _04_Encapsulation_2
         {
             return 2 * _length * _height + 2 * _width * _height;
         }
-
+      
         public double CalculateSquareFeet()
         {
             return _length * _width;
